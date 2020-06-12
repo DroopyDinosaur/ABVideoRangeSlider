@@ -26,10 +26,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/dev-shanghai/ABVideoRangeSlider.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AppsBoulevard'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ABVideoRangeSlider/Classes/**/*', 'ABVideoRangeSlider/Assets/*'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
+  s.source_files = 'ABVideoRangeSlider/Classes/**/*'
   s.resource_bundles = {
     'ABVideoRangeSlider' => ['ABVideoRangeSlider/Assets/*.png']
   }
